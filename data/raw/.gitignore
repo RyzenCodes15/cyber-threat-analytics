@@ -1,0 +1,21 @@
+# Dataset files
+data/raw/
+data/processed/
+
+# Python
+.venv/
+.ipynb_checkpoints/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Model artifacts
+*.pkl
+*.joblib
+
+# Environment files
+.env
+
+# VS Code
+.vscode/
+
