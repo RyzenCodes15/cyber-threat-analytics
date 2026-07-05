@@ -1,16 +1,33 @@
 # Cyber Threat Analytics
 
-AI-powered cyber threat analytics platform using machine learning, explainable AI, and modern web technologies.
+AI-powered cyber threat analytics platform for network intrusion detection, explainable AI, and interactive cyber-security analytics.
 
-## Goal
+## Project Goals
 
-Build a production-ready system capable of:
+- Detect malicious network traffic using machine learning.
+- Classify different attack categories such as DDoS, PortScan, Botnets, and Web Attacks.
+- Provide explainable predictions using SHAP.
+- Build interactive dashboards with modern web technologies.
+- Deploy a publicly accessible live demo.
 
-- Network intrusion detection
-- Threat classification
-- Interactive analytics dashboards
-- Explainable AI insights
-- Historical analysis and reporting
+## Dataset
+
+**CICIDS2017 (MachineLearningCVE)**
+
+- 2,830,743 network flows
+- 79 network traffic features
+- 11 attack categories
+- ~844 MB raw data
+
+### Attack Timeline
+
+| Day | Attacks |
+|------|---------|
+| Monday | BENIGN |
+| Tuesday | FTP-Patator, SSH-Patator |
+| Wednesday | DoS, Heartbleed |
+| Thursday | Web Attacks, Infiltration |
+| Friday | Bot, PortScan, DDoS |
 
 ## Tech Stack
 
@@ -30,19 +47,16 @@ Build a production-ready system capable of:
 ### Full Stack
 - Next.js
 - TypeScript
-- Tailwind CSS
+- TailwindCSS
 
 ### Database
 - PostgreSQL
-- Prisma ORM
+- Prisma
 
-### DevOps
+### Deployment
 - Docker
-- GitHub Actions
-
-## Dataset
-
-- CICIDS2017 (Canadian Institute for Cybersecurity Intrusion Detection Dataset)
+- Vercel
+- Railway
 
 ## Repository Structure
 
