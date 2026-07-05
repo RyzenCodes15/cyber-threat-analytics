@@ -1,0 +1,43 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =====================
+# Data
+# =====================
+data/raw/
+data/processed/
+
+# =====================
+# ML artifacts
+# =====================
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# =====================
+# Environment variables
+# =====================
+.env
+
+# =====================
+# VS Code
+# =====================
+.vscode/
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
